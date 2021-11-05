@@ -3,65 +3,91 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
-        "price": 10.99,
-        "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+        "title": "PELUQUERÍA",
+        "price": 100000,
+        "description": "Este servicio incluye maquillaje",
+        "image": { "fields": { "file": { "url": "./img/product-1.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-1.png" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+        "title": "ESTÉTICA",
+        "price": 250000,
+        "description": "Tenemos los equipos y las tecnologias mas innovadores del mercado",
+        "image": { "fields": { "file": { "url": "./img/product-2.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-2.png" } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
-        "price": 12.99,
-        "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+        "title": "LÁSER DE DIODO",
+        "price": 300000,
+        "description": "Unicos en el pais con esta tecnologia de depilación definitiva",
+        "image": { "fields": { "file": { "url": "./img/product-3.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-3.png" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
-        "price": 22.99,
-        "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+        "title": "TRATAMIENTOS FACIALES",
+        "price": 200000,
+        "description": "Nuestro equipo esta entrenado con las mejores tecnicas utlizadas en Brasíl para el cuidado del cutis",
+        "image": { "fields": { "file": { "url": "./img/product-4.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-4.png" } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
-        "price": 88.99,
-        "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+        "title": "TRATAMIENTO CORPORAL",
+        "price": 300000,
+        "description": "Cuida tu cuerpo con nuestras tecnicas y equipos de punta",
+        "image": { "fields": { "file": { "url": "./img/product-5.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-5.png" } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
-        "price": 32.99,
-        "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+        "title": "ELIMINACIÓN DE TATUAJES",
+        "price": 400000,
+        "description": "Librate de tus tatuajes con nuestro equipo Removerinc, el mejor del mercado",
+        "image": { "fields": { "file": { "url": "./img/product-6.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-6.png" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
-        "price": 45.99,
-        "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+        "title": "ARAÑAS VASCULARES",
+        "price": 150000,
+        "description": "Somos unicos en el pais en ofrecer este servicio, es por ello que es el favorito de nuestros clientes",
+        "image": { "fields": { "file": { "url": "./img/product-7.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-7.png" } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
-        "price": 33.99,
-        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+        "title": "NUTRICIÓN Y DIETÉTICA",
+        "price": 190000,
+        "description": "El cuidado del cuerpo inicia con la prevención, ven y aprende los  mejores habitos",
+        "image": { "fields": { "file": { "url": "./img/product-8.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-8.png" } } }
+      }
+    },
+    {
+      "sys": { "id": "9" },
+      "fields": {
+        "title": "QUIROMASAJE",
+        "price": 200000,
+        "description": "Tenemos todos los equipos y conocimiento para darte la mejor experiencia",
+        "image": { "fields": { "file": { "url": "./img/product-9.jpeg" } } },
+        "icon": { "fields": { "file": { "url": "./img/icon-9.png" } } }
       }
     }
   ]

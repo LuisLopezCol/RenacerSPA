@@ -27,10 +27,6 @@ body {
     background-color: var(--mainBeige);
 }
 
-#top_bar {
-    /* min-width: 1200px; */
-}
-
 #nav_bar {
     background-color: var(--mainWhite) !important;
 }
@@ -78,9 +74,11 @@ body {
 /* --------------- End of navbar ---------------- */
 
 /* --------------- Carousel ---------------- */
-.carousel-inner{
+
+.carousel-inner {
     height: 70vh !important;
 }
+
 /* --------------- End of Carousel ---------------- */
 
 /* --------------- Products ---------------- */
@@ -271,6 +269,49 @@ footer {
 
 /* ---------------End of Footer----------------- */
 
+/* --------------- Hero ---------------- */
+
+.hero {
+    min-height: calc(100vh - 60px);
+    background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 2rem;
+}
+
+.banner-title {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 3rem;
+}
+
+.banner-btn {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    background: transparent;
+    color: var(--primaryColor);
+}
+
+/* --------------- End of Hero ---------------- */
+
 /* --------------- Cart ---------------- */
 
 .cart-overlay {
@@ -293,7 +334,7 @@ footer {
     height: 100%;
     overflow: scroll;
     z-index: 3;
-    background:var(--mainBeige);
+    background: var(--mainBeige);
     padding: 1.5rem;
     transition: var(--mainTransition);
     transform: translateX(100%);
@@ -317,6 +358,16 @@ footer {
 .close-cart {
     font-size: 1.7rem;
     cursor: pointer;
+}
+
+.close-cart:hover {
+    background: transparent;
+    color: var(--primaryColor);
+}
+
+.clear-cart:hover {
+    background: transparent;
+    color: var(--primaryColor);
 }
 
 .cart h2 {
